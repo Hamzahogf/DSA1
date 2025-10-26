@@ -4,7 +4,7 @@ class Stack {
     private:
   struct Node
   {
-    int data;
+    int data; 
     Node* next;
     Node(int val) : data(val), next(nullptr) {} 
   };
