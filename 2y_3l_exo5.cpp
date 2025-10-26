@@ -18,7 +18,7 @@ class Stack {
         {
             Node* nody = new Node(x);
             Current=nody;
-            nody->next=nullptr;
+            nody->next=nullptr; 
         } else {
             Node* nody = new Node(x);
             Current->next=nody;
