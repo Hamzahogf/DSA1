@@ -24,7 +24,7 @@ class DH{
             } else {
                 break;
             }
-    }
+    } 
         array[hole]=std::move(tmp);
     }
     void percolateDownMin(int hole){
