@@ -5,7 +5,7 @@
 #include <cmath> 
 
 //2-heap : min-max-heap version   
-template<typename Comparable>
+template<typename Comparable> 
 class DH{
     private:
     std::vector<Comparable> array;
